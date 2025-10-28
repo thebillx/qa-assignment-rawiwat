@@ -28,13 +28,20 @@ tests/test_bookcart_api.py::test_create_book_with_fake_token PASSED
 ============================== 1 passed, 3 skipped in 1.8s ==============================
 ---
 
-**Notes**  
--Tests will automatically skip if:
+### 📘 API Reference
+This automation project uses the public API from **BookCart** for testing purposes.
+
+- **Base URL:** https://bookcart.azurewebsites.net/api  
+- **API Documentation:** [BookCart Swagger UI](https://bookcart.azurewebsites.net/swagger/index.html)
+
+**Notes**
+> Note: This API is publicly accessible for testing and educational use only.  
+>Tests will automatically skip if:
     -The API server returns 500 (unavailable), or
     -Authentication (401) is required.
--Each test validates:
+>Each test validates:
     -Response status code
     -JSON schema structure
     -Handling of invalid payloads
     -Unauthorized access
--This design ensures robust automation even if the API server is offline.
+>This design ensures robust automation even if the API server is offline.
