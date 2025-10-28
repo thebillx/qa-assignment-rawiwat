@@ -1,0 +1,65 @@
+# ==============================
+# Python General
+# ==============================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.pkl
+*.log
+*.tmp
+*.bak
+.DS_Store
+
+# ==============================
+# Virtual Environment
+# ==============================
+venv/
+.env/
+env/
+.venv/
+
+# ==============================
+# IDE / Editor Files
+# ==============================
+.vscode/
+.idea/
+*.swp
+
+# ==============================
+# Robot Framework
+# ==============================
+output.xml
+log.html
+report.html
+*.resource
+results/
+reports/
+logs/
+screenshots/
+*.db
+*.zip
+
+# ==============================
+# Pytest & Coverage
+# ==============================
+.cache/
+pytest_cache/
+*.cover
+*.coverage
+*.htmlcov/
+
+# ==============================
+# Appium / Mobile Automation
+# ==============================
+*.apk
+*.app
+*.ipa
+
+# ==============================
+# Temporary or OS Files
+# ==============================
+Thumbs.db
+Desktop.ini
+*.DS_Store

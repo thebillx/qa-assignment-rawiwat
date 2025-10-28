@@ -1,0 +1,12 @@
+{
+  "type": "object",
+  "properties": {
+    "bookId": { "type": "integer" },
+    "title": { "type": "string" },
+    "category": { "type": "string" },
+    "price": { "type": "number" },
+    "author": { "type": "string" },
+    "publisher": { "type": "string" }
+  },
+  "required": ["bookId", "title", "category", "price"]
+}
